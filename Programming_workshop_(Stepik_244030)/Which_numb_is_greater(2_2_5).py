@@ -18,3 +18,4 @@ n, m = int(input()), int(input())
 
 # print(0 if n == m else 1 if n > m else 2)
 print('012'[(n > m) - (n < m)])
+# print('012'[(n - m) // abs(n - m or 1)])
